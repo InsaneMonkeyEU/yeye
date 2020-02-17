@@ -91,7 +91,7 @@ client.on('message', message => {
     command.execute(message, args);
   } catch (error) {
     console.error(error);
-    message.reply('Es gab ein fehler beim Ausführen dieses Befehls!');
+    message.reply('Es gab ein fehler beim Ausführen dieses Commands!');
   }
 });
 
